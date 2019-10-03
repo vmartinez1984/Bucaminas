@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buscaminas.Vista", "Buscaminas.Vista\Buscaminas.Vista.csproj", "{4E6154A7-ACE7-419C-BC85-B0D0175438AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buscaminas.Controller", "Buscaminas.Controller\Buscaminas.Controller.csproj", "{213E4549-FE37-49BC-A79C-18D1803A8871}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E6154A7-ACE7-419C-BC85-B0D0175438AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6154A7-ACE7-419C-BC85-B0D0175438AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6154A7-ACE7-419C-BC85-B0D0175438AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6154A7-ACE7-419C-BC85-B0D0175438AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{213E4549-FE37-49BC-A79C-18D1803A8871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213E4549-FE37-49BC-A79C-18D1803A8871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213E4549-FE37-49BC-A79C-18D1803A8871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213E4549-FE37-49BC-A79C-18D1803A8871}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69FDE998-BD5C-4A37-BD1A-4F7087DCBBC2}
+	EndGlobalSection
+EndGlobal
