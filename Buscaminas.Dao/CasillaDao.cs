@@ -2,8 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Buscaminas.Dao
 {
@@ -18,6 +16,7 @@ namespace Buscaminas.Dao
                 var item = new Casilla();
                 item.Id = i;
                 item.IsMina = lstMinas.Where(a => a == i).Count() == 1 ? true : false;
+                item.Estado = Estado.SinAbrir;
                 lst.Add(item);
             }
             return lst;

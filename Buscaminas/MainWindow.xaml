@@ -5,22 +5,51 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Buscaminas"
         mc:Ignorable="d"
-        Title="Buscaminas by Víktor Mtz" Height="450" Width="450" Loaded="Window_Loaded">
+        Title="Buscaminas by Víktor Mtz" Height="600" Width="450" Loaded="Window_Loaded">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
-            <RowDefinition Height="50"/>
+            <RowDefinition Height="75"/>
             <RowDefinition/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
-        <StackPanel>
+        <DockPanel>
+            <TextBlock Text="Buscaminas by Viíktor Mtz" VerticalAlignment="Center" Width="200"/>
+            <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">            
             <Button>
                 <StackPanel>
                     <Image/>
-                    <Label/>
+                    <Label Content="_"/>
                 </StackPanel>
             </Button>
-        </StackPanel>
+            <Button>
+                <StackPanel>
+                    <Image/>
+                    <Label Content="[ ]"/>
+                </StackPanel>
+            </Button>
+            <Button>
+                <StackPanel>
+                    <Image/>
+                    <Label Content="X"/>
+                </StackPanel>
+            </Button>
+            </StackPanel>
+        </DockPanel>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Name="TxtMinasNumero" Text="10" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40"/>
+            <Button Grid.Column="1" Height="70" Name="BtnIniciar" Click="BtnIniciar_Click">
+                <StackPanel>
+                    <Image Name="BtnIniciarImg" Stretch="None" />
+                </StackPanel>
+            </Button>
+            <TextBlock Grid.Column="2" Name="TxtTiempo" Text="000" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40"/>
+        </Grid>
         <UniformGrid Name="PnlMain" Grid.Row="2">
 
         </UniformGrid>
