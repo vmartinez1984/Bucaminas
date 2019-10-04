@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4E6154A7-ACE7-419C-BC85-B0D0175438AD}</ProjectGuid>
+    <ProjectGuid>{401618C7-778A-4A07-A98F-978744213563}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Buscaminas.Vista</RootNamespace>
-    <AssemblyName>Buscaminas.Vista</AssemblyName>
+    <RootNamespace>Buscaminas</RootNamespace>
+    <AssemblyName>Buscaminas</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -93,6 +93,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Buscaminas.Dao\Buscaminas.Dao.csproj">
+      <Project>{E8DC3350-AA81-4B34-892D-5EF2196A36D8}</Project>
+      <Name>Buscaminas.Dao</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Buscaminas.Dto\Buscaminas.Dto.csproj">
+      <Project>{213E4549-FE37-49BC-A79C-18D1803A8871}</Project>
+      <Name>Buscaminas.Dto</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

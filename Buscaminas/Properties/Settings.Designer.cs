@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Buscaminas.Vista.Properties
+namespace Buscaminas.Properties
 {
 
 

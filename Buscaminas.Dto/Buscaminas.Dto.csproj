@@ -7,8 +7,8 @@
     <ProjectGuid>{213E4549-FE37-49BC-A79C-18D1803A8871}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Buscaminas.Controller</RootNamespace>
-    <AssemblyName>Buscaminas.Controller</AssemblyName>
+    <RootNamespace>Buscaminas.Dto</RootNamespace>
+    <AssemblyName>Buscaminas.Dto</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aleatorio.cs" />
+    <Compile Include="Casilla.cs" />
+    <Compile Include="Estado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
