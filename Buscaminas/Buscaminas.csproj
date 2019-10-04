@@ -34,9 +34,13 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Mina.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -103,6 +107,28 @@
       <Project>{213E4549-FE37-49BC-A79C-18D1803A8871}</Project>
       <Name>Buscaminas.Dto</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Tool.Convertidor\Tool.Convertidor.csproj">
+      <Project>{c7e1d86f-2456-43e0-97f6-64aa67027178}</Project>
+      <Name>Tool.Convertidor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bandera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Duda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Explosion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mina.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Mina.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Buscaminas"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
-    <UniformGrid Name="PnlMain">
-        
-    </UniformGrid>
+        Title="Buscaminas by Víktor Mtz" Height="450" Width="450" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <Button>
+                <StackPanel>
+                    <Image/>
+                    <Label/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+        <UniformGrid Name="PnlMain" Grid.Row="2">
+
+        </UniformGrid>
+    </Grid>
 </Window>
