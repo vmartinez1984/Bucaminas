@@ -107,10 +107,6 @@
       <Project>{213E4549-FE37-49BC-A79C-18D1803A8871}</Project>
       <Name>Buscaminas.Dto</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Tool.Convertidor\Tool.Convertidor.csproj">
-      <Project>{c7e1d86f-2456-43e0-97f6-64aa67027178}</Project>
-      <Name>Tool.Convertidor</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Bandera.png" />

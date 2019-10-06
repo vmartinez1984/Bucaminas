@@ -5,53 +5,61 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Buscaminas"
         mc:Ignorable="d"
-        Title="Buscaminas by Víktor Mtz" Height="600" Width="450" Loaded="Window_Loaded">
+        Title="Buscaminas by Víktor Mtz" Height="600" Width="450" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" Background="Transparent">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="75"/>
-            <RowDefinition/>
-            <RowDefinition Height="50"/>
-        </Grid.RowDefinitions>
-        <DockPanel>
-            <TextBlock Text="Buscaminas by Viíktor Mtz" VerticalAlignment="Center" Width="200"/>
-            <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">            
-            <Button>
-                <StackPanel>
-                    <Image/>
-                    <Label Content="_"/>
-                </StackPanel>
-            </Button>
-            <Button>
-                <StackPanel>
-                    <Image/>
-                    <Label Content="[ ]"/>
-                </StackPanel>
-            </Button>
-            <Button>
-                <StackPanel>
-                    <Image/>
-                    <Label Content="X"/>
-                </StackPanel>
-            </Button>
-            </StackPanel>
-        </DockPanel>
-        <Grid Grid.Row="1">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-            <TextBlock Name="TxtMinasNumero" Text="10" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40"/>
-            <Button Grid.Column="1" Height="70" Name="BtnIniciar" Click="BtnIniciar_Click">
-                <StackPanel>
-                    <Image Name="BtnIniciarImg" Stretch="None" />
-                </StackPanel>
-            </Button>
-            <TextBlock Grid.Column="2" Name="TxtTiempo" Text="000" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40"/>
+        <Grid Background="Black" Opacity="0.8">            
         </Grid>
-        <UniformGrid Name="PnlMain" Grid.Row="2">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="75"/>
+                <RowDefinition/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <DockPanel MouseDown="DockPanel_MouseDown" >
+                <TextBlock Text="Buscaminas" VerticalAlignment="Center" Width="200" Foreground="{StaticResource TextoRojo}" FontSize="20"/>
+                <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                    <Button>
+                        <StackPanel>
+                            <Image/>
+                            <Label Content="_"/>
+                        </StackPanel>
+                    </Button>
+                    <Button>
+                        <StackPanel>
+                            <Image/>
+                            <Label Content="[ ]"/>
+                        </StackPanel>
+                    </Button>
+                    <Button x:Name="BtnCerrar" Click="BtnCerrar_Click" Style="{StaticResource BtnDanger}">
+                        <StackPanel>
+                            <Image/>
+                            <Label Content="X"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </DockPanel>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Name="TxtMinasNumero" Text="10" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" Foreground="{StaticResource TextoRojo}"/>
+                <Button Grid.Column="1" Height="70" Name="BtnIniciar" Click="BtnIniciar_Click" Background="Transparent" Opacity="0.7">
+                    <StackPanel>
+                        <Image Name="BtnIniciarImg" Stretch="None"  >
+                        </Image>
 
-        </UniformGrid>
+                    </StackPanel>
+                </Button>
+                <TextBlock Grid.Column="2" Name="TxtTiempo" Text="000" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" Foreground="{StaticResource TextoVerde}"/>
+            </Grid>
+            <UniformGrid Name="PnlMain" Grid.Row="2">
+            </UniformGrid>
+            <StackPanel Grid.Row="3" VerticalAlignment="Center">
+                <TextBlock Text="Powered by Víktor Martínez" Foreground="{StaticResource TextoRojo}" FontSize="20" HorizontalAlignment="Right" />
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>

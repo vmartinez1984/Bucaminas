@@ -4,6 +4,89 @@
              xmlns:local="clr-namespace:Buscaminas"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="TextoVerde" Color="#FF1DDE1D"></SolidColorBrush>
+            <SolidColorBrush x:Key="TextoRojo" Color="#FFDE1D6C"></SolidColorBrush>
+
+            <SolidColorBrush x:Key="btnDangerBorderColor">#e74c3c</SolidColorBrush>
+            <SolidColorBrush x:Key="btnDangerBackgroundColor">#e74c3c</SolidColorBrush>
+            <SolidColorBrush x:Key="btnDangerBackgroundColorMouseOver">#d62c1a</SolidColorBrush>
+            <SolidColorBrush x:Key="btnDangerBackgroundColorPressed">#d62c1a</SolidColorBrush>
+            <SolidColorBrush x:Key="btnDangerBackgroundColorDisable">#b62516</SolidColorBrush>
+            <SolidColorBrush x:Key="btnDangerFontColor">#FFFFFF</SolidColorBrush>
+            <SolidColorBrush x:Key="btnDangerFontColorDisable">#F0F1F3</SolidColorBrush>
+
+            <!--btn default-->
+            <SolidColorBrush x:Key="btnDefaultBackground" Color="#FF92938E"/>
+            <SolidColorBrush x:Key="btnDefaultMouseOverColor" Color="#FF889597"/>
+            <SolidColorBrush x:Key="btnDefaultBackgroundPress">#74898a</SolidColorBrush>
+            <SolidColorBrush x:Key="btnDefaultFontColor">#FFFFFF</SolidColorBrush>
+
+            <!--Btn Default-->
+            <Style x:Key="{x:Type Button}" TargetType="{x:Type Button}">
+                <Setter Property="Margin" Value="3"/>
+                <Setter Property="Background" Value="{StaticResource btnDefaultBackground}"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="Foreground" Value="{StaticResource btnDefaultFontColor}"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border Name="border"  
+                               
+                                BorderThickness="1"
+                                Background="{DynamicResource btnDefaultMouseOverColor}" CornerRadius="0">
+                                <ContentPresenter x:Name="contentPresenter" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="border" Property="Background" Value="{StaticResource btnDefaultMouseOverColor}"/>
+                                </Trigger>
+                                <Trigger Property="IsPressed" Value="True">
+                                    <Setter TargetName="border" Property="Background" Value="{DynamicResource btnDefaultBackgroundPress}"/>
+                                    <Setter Property="Foreground" Value="White"/>
+                                </Trigger>
+                                <Trigger Property="IsEnabled" Value="False">
+                                    <Setter TargetName="border" Property="Background" Value="Silver"/>
+                                    <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="DarkGray"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <!--Btn Danger-->
+            <Style x:Key="BtnDanger" TargetType="Button">
+                <Setter Property="Margin" Value="3"/>
+                <Setter Property="Foreground" Value="{StaticResource btnDangerFontColor}"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border Name="border"  
+                                BorderBrush="{StaticResource btnDangerBorderColor}"  
+                                BorderThickness="1"
+                                Background="{StaticResource btnDangerBackgroundColor}" CornerRadius="2">
+                                <ContentPresenter x:Name="contentPresenter" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="border" Property="Background" Value="{StaticResource btnDangerBackgroundColorMouseOver}"/>
+                                    <Setter TargetName="border" Property="BorderThickness" Value="2"/>
+                                </Trigger>
+                                <Trigger Property="IsPressed" Value="True">
+                                    <Setter TargetName="border" Property="Background" Value="{StaticResource btnDangerBackgroundColorPressed}"/>
+                                    <Setter Property="Foreground" Value="{StaticResource btnDangerFontColor}"/>
+                                </Trigger>
+                                <Trigger Property="IsEnabled" Value="False">
+                                    <Setter TargetName="border" Property="Background" Value="{StaticResource btnDangerBackgroundColorDisable}"/>
+                                    <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource btnDangerFontColorDisable}"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
