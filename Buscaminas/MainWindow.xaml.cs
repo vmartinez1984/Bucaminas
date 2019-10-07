@@ -26,6 +26,7 @@ namespace Buscaminas
         List<Casilla> LstCasillas = new List<Casilla>();
         const string ImgNombre = "ImgNombre";
         const string LblNombre = "LblNombre";
+        const double Opacidad = 0.6;
         #endregion
         public MainWindow()
         {
@@ -258,7 +259,7 @@ namespace Buscaminas
                 if (id == Convert.ToInt32(item.Tag))
                 {
                     item.IsEnabled = false;
-                    item.Opacity = 0.3;
+                    item.Opacity = Opacidad;
                     stackpanel = item.Content as StackPanel;
                     label = stackpanel.Children[1] as Label;
                     label.Content = casilla.NumeroDeMinasCerca.ToString();
@@ -321,7 +322,7 @@ namespace Buscaminas
                 {
                     casilla = LstCasillas.Where(x => x.Id == id).FirstOrDefault();
                     item.IsEnabled = false;
-                    item.Opacity = 0.3;
+                    item.Opacity = Opacidad;
                     stackpanel = item.Content as StackPanel;
                     label = stackpanel.Children[1] as Label;
                     image = stackpanel.Children[0] as Image;
