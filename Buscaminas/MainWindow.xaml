@@ -19,19 +19,19 @@
             <DockPanel MouseDown="DockPanel_MouseDown" >
                 <TextBlock Text="Buscaminas" VerticalAlignment="Center" Width="200" Foreground="{StaticResource TextoRojo}" FontSize="20"/>
                 <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
-                    <Button>
+                    <Button Name="BtnMinimizar" Click="BtnMinimizar_Click" Width="35" Height="35">
                         <StackPanel>
                             <Image/>
                             <Label Content="_"/>
                         </StackPanel>
                     </Button>
-                    <Button>
+                    <!--<Button>
                         <StackPanel>
                             <Image/>
                             <Label Content="[ ]"/>
                         </StackPanel>
-                    </Button>
-                    <Button x:Name="BtnCerrar" Click="BtnCerrar_Click" Style="{StaticResource BtnDanger}">
+                    </Button>-->
+                    <Button x:Name="BtnCerrar" Click="BtnCerrar_Click" Style="{StaticResource BtnDanger}" Width="35" Height="35">
                         <StackPanel>
                             <Image/>
                             <Label Content="X"/>
