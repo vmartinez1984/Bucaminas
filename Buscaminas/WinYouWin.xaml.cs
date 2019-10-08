@@ -25,7 +25,7 @@ namespace Buscaminas
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             ImagenFinal.Source = GetImagen(Properties.Resources.BanderaSovieticaReichstag);
-            player.SoundLocation = @"C:\Users\vmartinez\Videos\SovietHimno.wav";
+            player.SoundLocation = @"Resources\SovietHimno.wav";
             player.Play();
         }
 

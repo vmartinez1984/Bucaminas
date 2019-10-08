@@ -162,9 +162,9 @@ namespace Buscaminas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream Marcha {
+        internal static System.IO.UnmanagedMemoryStream MetalSlug {
             get {
-                return ResourceManager.GetStream("Marcha", resourceCulture);
+                return ResourceManager.GetStream("MetalSlug", resourceCulture);
             }
         }
         

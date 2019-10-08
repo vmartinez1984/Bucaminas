@@ -186,5 +186,10 @@
   <ItemGroup>
     <None Include="Resources\Correcto.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MetalSlug.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

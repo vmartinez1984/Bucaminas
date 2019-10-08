@@ -15,20 +15,50 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_00B2C39D43EC9A41B9A7C9AF8665E88B"
-        "OwnerKey" = "8:_1C695A481525DE3FE54A404045F332BD"
+        "MsmKey" = "8:_110A9E4DF3A84167B07B66CF4A9C48EA"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_00B2C39D43EC9A41B9A7C9AF8665E88B"
-        "OwnerKey" = "8:_6D3F604B6C384ED4B796C9E7A39229DD"
+        "MsmKey" = "8:_29DEA1C2D672479389E285B786ED2846"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_1C695A481525DE3FE54A404045F332BD"
-        "OwnerKey" = "8:_6D3F604B6C384ED4B796C9E7A39229DD"
+        "MsmKey" = "8:_2EA33A63DF894CAA8B8E36BF91009CB3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4CC432224AAB4FC09D9AF08EE5F3C266"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4E33A0499E034F70BE0ECCB275625B0C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5B0B6E2419874A88812BCDF4A0C8345E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5E1156B129D54785AAF55E2E807B15E9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6342D0ADB4AA4CEDBBC7D54F4FA85B9D"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -39,8 +69,26 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_74AA60F74F8CE4585123A28AD94A1341"
+        "OwnerKey" = "8:_E332F456321D0E9A60C99E683CD3EDCD"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_74AA60F74F8CE4585123A28AD94A1341"
+        "OwnerKey" = "8:_6D3F604B6C384ED4B796C9E7A39229DD"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_8F6D639B2A72CE76D4076E864B1F835A"
         "OwnerKey" = "8:_6D3F604B6C384ED4B796C9E7A39229DD"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_929491D0896C4604B14B861458E2234F"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -51,6 +99,48 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_A0BB5EB96DCD4E4982BFF26F957FD26D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A57DF7ED326B45E7BEA5B05EACBD8D27"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B3F7F6464F804DFBB884CA97C6253CD3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D2283EBE6E7D434290D8D761F0FFC50F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E332F456321D0E9A60C99E683CD3EDCD"
+        "OwnerKey" = "8:_6D3F604B6C384ED4B796C9E7A39229DD"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F971BE5D76C94A78BE8A1EAA7D0BBE74"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_8F6D639B2A72CE76D4076E864B1F835A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_6D3F604B6C384ED4B796C9E7A39229DD"
         "MsmSig" = "8:_UNDEFINED"
@@ -58,19 +148,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_1C695A481525DE3FE54A404045F332BD"
+        "OwnerKey" = "8:_E332F456321D0E9A60C99E683CD3EDCD"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_00B2C39D43EC9A41B9A7C9AF8665E88B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8F6D639B2A72CE76D4076E864B1F835A"
+        "OwnerKey" = "8:_74AA60F74F8CE4585123A28AD94A1341"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -130,6 +214,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -160,23 +252,12 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_00B2C39D43EC9A41B9A7C9AF8665E88B"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_110A9E4DF3A84167B07B66CF4A9C48EA"
             {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Buscaminas.Dto, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_00B2C39D43EC9A41B9A7C9AF8665E88B"
-                    {
-                    "Name" = "8:Buscaminas.Dto.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Buscaminas.Dto.dll"
-            "TargetName" = "8:"
+            "SourcePath" = "8:..\\Buscaminas\\Resources\\Correcto.png"
+            "TargetName" = "8:Correcto.png"
             "Tag" = "8:"
-            "Folder" = "8:_6F868AF01BDD4AB5BF138978E4606B17"
+            "Folder" = "8:_A5B1F2BCC0D748318C9F3E52F1F43632"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -188,23 +269,163 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1C695A481525DE3FE54A404045F332BD"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_29DEA1C2D672479389E285B786ED2846"
+            {
+            "SourcePath" = "8:..\\Buscaminas\\Resources\\Error.png"
+            "TargetName" = "8:Error.png"
+            "Tag" = "8:"
+            "Folder" = "8:_A5B1F2BCC0D748318C9F3E52F1F43632"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2EA33A63DF894CAA8B8E36BF91009CB3"
+            {
+            "SourcePath" = "8:..\\Buscaminas\\Resources\\Bandera.png"
+            "TargetName" = "8:Bandera.png"
+            "Tag" = "8:"
+            "Folder" = "8:_A5B1F2BCC0D748318C9F3E52F1F43632"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4CC432224AAB4FC09D9AF08EE5F3C266"
+            {
+            "SourcePath" = "8:..\\Buscaminas\\Resources\\Explosion.png"
+            "TargetName" = "8:Explosion.png"
+            "Tag" = "8:"
+            "Folder" = "8:_A5B1F2BCC0D748318C9F3E52F1F43632"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4E33A0499E034F70BE0ECCB275625B0C"
+            {
+            "SourcePath" = "8:..\\Buscaminas\\Resources\\bandera-sovietica-sobre-reichstag.jpg"
+            "TargetName" = "8:bandera-sovietica-sobre-reichstag.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_A5B1F2BCC0D748318C9F3E52F1F43632"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5B0B6E2419874A88812BCDF4A0C8345E"
+            {
+            "SourcePath" = "8:..\\Buscaminas\\Resources\\CaraLlorando.png"
+            "TargetName" = "8:CaraLlorando.png"
+            "Tag" = "8:"
+            "Folder" = "8:_A5B1F2BCC0D748318C9F3E52F1F43632"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5E1156B129D54785AAF55E2E807B15E9"
+            {
+            "SourcePath" = "8:..\\Buscaminas\\Resources\\CaraFeliz.png"
+            "TargetName" = "8:CaraFeliz.png"
+            "Tag" = "8:"
+            "Folder" = "8:_A5B1F2BCC0D748318C9F3E52F1F43632"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6342D0ADB4AA4CEDBBC7D54F4FA85B9D"
+            {
+            "SourcePath" = "8:..\\Buscaminas\\Resources\\Explosion.wav"
+            "TargetName" = "8:Explosion.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_A5B1F2BCC0D748318C9F3E52F1F43632"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_74AA60F74F8CE4585123A28AD94A1341"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Buscaminas.Dao, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Buscaminas.Dto, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_1C695A481525DE3FE54A404045F332BD"
+                    "_74AA60F74F8CE4585123A28AD94A1341"
                     {
-                    "Name" = "8:Buscaminas.Dao.dll"
+                    "Name" = "8:Buscaminas.Dto.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Buscaminas.Dao.dll"
+            "SourcePath" = "8:Buscaminas.Dto.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_6F868AF01BDD4AB5BF138978E4606B17"
@@ -253,12 +474,163 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_929491D0896C4604B14B861458E2234F"
+            {
+            "SourcePath" = "8:..\\Buscaminas\\Resources\\CaraSorprendido.png"
+            "TargetName" = "8:CaraSorprendido.png"
+            "Tag" = "8:"
+            "Folder" = "8:_A5B1F2BCC0D748318C9F3E52F1F43632"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_930925C0EAAF46EBA82E023ED8D2F458"
             {
             "SourcePath" = "8:..\\Buscaminas\\Mina.ico"
             "TargetName" = "8:Mina.ico"
             "Tag" = "8:"
             "Folder" = "8:_6F868AF01BDD4AB5BF138978E4606B17"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A0BB5EB96DCD4E4982BFF26F957FD26D"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Videos\\MetalSlug.wav"
+            "TargetName" = "8:MetalSlug.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_A5B1F2BCC0D748318C9F3E52F1F43632"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A57DF7ED326B45E7BEA5B05EACBD8D27"
+            {
+            "SourcePath" = "8:..\\Buscaminas\\Resources\\Duda.png"
+            "TargetName" = "8:Duda.png"
+            "Tag" = "8:"
+            "Folder" = "8:_A5B1F2BCC0D748318C9F3E52F1F43632"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B3F7F6464F804DFBB884CA97C6253CD3"
+            {
+            "SourcePath" = "8:..\\Buscaminas\\Resources\\Mina.ico"
+            "TargetName" = "8:Mina.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_A5B1F2BCC0D748318C9F3E52F1F43632"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D2283EBE6E7D434290D8D761F0FFC50F"
+            {
+            "SourcePath" = "8:..\\Buscaminas\\Resources\\SovietHimno.wav"
+            "TargetName" = "8:SovietHimno.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_A5B1F2BCC0D748318C9F3E52F1F43632"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E332F456321D0E9A60C99E683CD3EDCD"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Buscaminas.Dao, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_E332F456321D0E9A60C99E683CD3EDCD"
+                    {
+                    "Name" = "8:Buscaminas.Dao.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Buscaminas.Dao.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_6F868AF01BDD4AB5BF138978E4606B17"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F971BE5D76C94A78BE8A1EAA7D0BBE74"
+            {
+            "SourcePath" = "8:..\\Buscaminas\\Resources\\Mina.png"
+            "TargetName" = "8:Mina.png"
+            "Tag" = "8:"
+            "Folder" = "8:_A5B1F2BCC0D748318C9F3E52F1F43632"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -300,6 +672,17 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_A5B1F2BCC0D748318C9F3E52F1F43632"
+                    {
+                    "Name" = "8:Resources"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_A0AB056F48DA4D57AB214151283AB172"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_9AF03933702A46759581638C296223A5"
@@ -330,7 +713,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Buscaminas"
         "ProductCode" = "8:{31329BB5-53E4-4A6B-8610-E5BB7E936E3B}"
-        "PackageCode" = "8:{C11145D8-DDDE-4A28-A1B9-F2F3641F77E7}"
+        "PackageCode" = "8:{3CA0212E-0001-4FEA-9B48-F584BFF0E75E}"
         "UpgradeCode" = "8:{3EDA5C22-B05B-434A-82BE-643D58358348}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

@@ -130,7 +130,7 @@ namespace Buscaminas
                 PnlMain.IsEnabled = false;
 
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer();
-                player.SoundLocation = @"C:\Users\vmartinez\Videos\Explosion.wav";
+                player.SoundLocation = @"Resources\Explosion.wav";
                 player.Play();
 
                 //Mostrar la minas
@@ -187,7 +187,7 @@ namespace Buscaminas
             BtnIniciarImg.Source = GetImagen(Properties.Resources.CaraFeliz);
 
             System.Media.SoundPlayer player = new System.Media.SoundPlayer();
-            player.SoundLocation = @"C:\Users\vmartinez\Videos\Marcha.wav";
+            player.SoundLocation = @"Resources\MetalSlug.wav";
             player.PlayLooping();
 
         }

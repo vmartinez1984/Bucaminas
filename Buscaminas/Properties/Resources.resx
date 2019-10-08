@@ -148,8 +148,8 @@
   <data name="Explosion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Explosion.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Marcha" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Marcha.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="MetalSlug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MetalSlug.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Mina" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mina.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
